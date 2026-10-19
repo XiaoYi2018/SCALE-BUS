@@ -2,22 +2,31 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata in this file."
 title: "SCALE-BUS experimental code"
 type: software
-version: 0.1.0
-date-released: 2026-08-17
+version: 0.2.0
+date-released: 2026-10-18
 license: MIT
 authors:
   - family-names: Li
     given-names: Bohan
     orcid: "https://orcid.org/0000-0002-4116-4875"
-  - family-names: Cao
-    given-names: Boqiang
-    orcid: "https://orcid.org/0009-0004-3371-8892"
+  - family-names: Guo
+    given-names: Qicheng
+    orcid: "https://orcid.org/0009-0004-7788-3750"
   - family-names: Li
     given-names: Hao
     orcid: "https://orcid.org/0009-0000-9627-5284"
-  - family-names: Kasymaliev
-    given-names: Muratbek U.
-    orcid: "https://orcid.org/0009-0004-9237-7039"
+  - family-names: Ma
+    given-names: Jun
+    orcid: "https://orcid.org/0000-0002-5326-462X"
+  - family-names: Ren
+    given-names: Xunhuan
+    orcid: "https://orcid.org/0000-0002-6329-5462"
+  - family-names: Chen
+    given-names: Yiming
+    orcid: "https://orcid.org/0009-0000-6721-1409"
+  - family-names: Golosov
+    given-names: Dmitriy A.
+    orcid: "https://orcid.org/0000-0002-1482-4620"
 keywords:
   - breast ultrasound
   - fractal features

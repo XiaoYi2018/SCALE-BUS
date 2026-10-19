@@ -27,7 +27,6 @@ from run_busuclm_grouped_cv import (  # noqa: E402
 )
 from run_cross_dataset_transfer import source_tune_c  # noqa: E402
 from screen_v04_classifiers import (  # noqa: E402
-    fit_predict as classifier_fit_predict,
     transfer as classifier_transfer,
     within as classifier_within,
 )

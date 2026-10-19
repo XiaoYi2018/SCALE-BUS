@@ -80,7 +80,7 @@ def main() -> int:
 
         with Image.open(image_path) as image_obj:
             image = np.asarray(image_obj)
-            image_size = image_obj.size
+            image_size = (image.shape[1], image.shape[0])
             image_mode = image_obj.mode
         with Image.open(mask_path) as mask_obj:
             mask_rgb = np.asarray(mask_obj.convert("RGB"))

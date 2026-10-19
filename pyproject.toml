@@ -4,16 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scale-bus"
-version = "0.1.0"
-description = "Interpretable scale-coupled features for breast ultrasound lesion classification"
+version = "0.2.0"
+description = "Multiscale lesion measurements for breast ultrasound and their metrological characterization"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
 authors = [
   {name = "Bohan Li"},
-  {name = "Boqiang Cao"},
+  {name = "Qicheng Guo"},
   {name = "Hao Li"},
-  {name = "Muratbek U. Kasymaliev"},
+  {name = "Jun Ma"},
+  {name = "Xunhuan Ren"},
+  {name = "Yiming Chen"},
+  {name = "Dmitriy A. Golosov"},
 ]
 dependencies = [
   "numpy==2.1.3",
@@ -25,6 +28,7 @@ dependencies = [
   "scikit-learn==1.6.1",
   "openpyxl==3.1.5",
   "joblib==1.4.2",
+  "matplotlib==3.10.0",
 ]
 
 [tool.setuptools]

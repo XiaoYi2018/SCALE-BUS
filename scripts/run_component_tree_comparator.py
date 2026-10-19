@@ -23,7 +23,6 @@ from fractal_extrema.component_tree import (  # noqa: E402
     extract_component_tree_feature_dict,
 )
 from run_busuclm_grouped_cv import (  # noqa: E402
-    C_GRID,
     SEED,
     classification_metrics,
     cluster_bootstrap,
